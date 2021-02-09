@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "671759556032",
+    "firebase_url": "https://vendafacil-e547d.firebaseio.com",
+    "project_id": "vendafacil-e547d",
+    "storage_bucket": "vendafacil-e547d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671759556032:android:a0da2735b66e0aaf047c25",
+        "android_client_info": {
+          "package_name": "com.example.vendafacil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671759556032-ckhqtbchfbdhr11ggkv31p5josm89i6a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRdfTXHJVcxtI3av76mPJiktJwFfLoeiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671759556032-ckhqtbchfbdhr11ggkv31p5josm89i6a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

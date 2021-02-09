@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">VendaFacil</string>
+
+    //MENU
+    <string name="sale">Venda</string>
+    <string name="cliente">Cliente</string>
+    <string name="fornecedor">Fornecedor</string>
+    <string name="estoque">Estoque</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="help">Help</string>
+    <string name="perfil">Perfil</string>
+    <string name="relatorio">Relatorio</string>
+
+    //LOGIN SCREEN
+    <string name="forgot_password"><u>Esqueceu a senha?</u></string>
+    <string name="user">Usuário</string>
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="sign_in">Entrar</string>
+    <string name="otherLogin">OU </string>
+    <string name="signup">Ainda não tem uma conta?</string>
+    <string name="haveAccount">Ainda não possui uma conta? </string>
+    <string name="register"> Cadastrar</string>
+    <string name="loginGoogle">Entrar com o Google</string>
+    <string name="autenticate_fail">Falha de autenticação</string>
+
+    //REGISTER SCREEN
+    <string name="name_register">Nome</string>
+    <string name="surname_register">Sobrenome</string>
+    <string name="password_register">Senha</string>
+    <string name="confirm_password_register">Confirmar Senha</string>
+    <string name="phone_register">Telefone</string>
+    <string name="button_register">Registrar</string>
+    <string name="back_register">Voltar</string>
+    <string name="title_activity_forgot_password">Settings</string>
+
+    //FORGOT PASSWORD SCREEN
+    <string name="resum_forgot_password">Nós vamos lhe enviar um email para que você resete sua senha. Por favor insira seu e-mail cadastrado e clique no botão Enviar e-mail</string>
+    <string name="btn_forgot_password">Enviar e-mail</string>
+
+    //MAIN ACTIVITY
+    <string name="logout">Sair</string>
+    <string name="home">Início</string>
+
+    //NAVIGATION
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    //NEW SALE
+    <string name="button_add_sale">Adicionar</string>
+    <string name="button_clear_sale">Limpar</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

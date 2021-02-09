@@ -1,0 +1,132 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/LoginTheme">
+
+    <data>
+        <variable
+            name="user"
+            type="com.example.vendafacil.models.User"/>
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/et_email_login"
+                android:drawableStart="@drawable/ic_login_user"
+                android:hint="@string/email"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:drawablePadding="10dp"
+                android:inputType="textEmailAddress"
+                android:text="@={user.email}"
+                android:layout_height="wrap_content"
+                android:background="@drawable/login_edit_background"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/et_password_login"
+                android:drawableStart="@drawable/ic_login_pw"
+                android:hint="@string/password"
+                android:drawablePadding="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@={user.password}"
+                android:inputType="textPassword"
+                android:background="@drawable/login_edit_background"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/forgotPassword"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_login"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/write"
+                android:background="@drawable/login_button_background"
+                android:text="@string/sign_in"/>
+
+<!--            <TextView-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/otherLogin"-->
+<!--                android:layout_gravity="center"/>-->
+
+<!--            <androidx.appcompat.widget.AppCompatButton-->
+<!--                android:id="@+id/login_google_button"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/write"-->
+<!--                android:padding="10dp"-->
+<!--                android:background="@color/colorAccent"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:text="@string/loginGoogle"-->
+<!--                android:drawableLeft="@drawable/googleg_standard_color_18"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/haveAccount"
+                    android:layout_marginEnd="5dp"/>
+
+                <TextView
+                    android:id="@+id/createAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register"
+                    android:textStyle="bold"
+                    android:textSize="16dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>

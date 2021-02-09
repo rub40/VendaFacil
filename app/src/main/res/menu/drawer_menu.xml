@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view" >
+    <item android:title="Menu">
+        <menu android:checkableBehavior="single">
+<!--            <item android:id="@+id/nav_home"-->
+<!--                android:title="@string/home"-->
+<!--                android:icon="@drawable/ic_home"/>-->
+            <item android:id="@+id/nav_sale"
+                android:title="Vendas"
+                android:icon="@drawable/ic_sale"/>
+            <item android:id="@+id/nav_help"
+                android:title="Ajuda"
+                android:icon="@drawable/ic_help"/>
+            <item android:id="@+id/nav_exit"
+                android:title="@string/logout"
+                android:icon="@drawable/ic_logout"/>
+<!--            <item android:id="@+id/nav_relatorio"-->
+<!--                android:title="@string/relatorio"-->
+<!--                android:icon="@drawable/ic_relatorio"/>-->
+<!--            <item android:id="@+id/nav_cliente"-->
+<!--                android:title="@string/cliente"-->
+<!--                android:icon="@drawable/ic_cliente"/>-->
+<!--            <item android:id="@+id/nav_Estoque"-->
+<!--                android:title="@string/estoque"-->
+<!--                android:icon="@drawable/ic_estoque"/>-->
+        </menu>
+    </item>
+<!--    <item android:title="Auxiliar">-->
+<!--        <menu>-->
+<!--            &lt;!&ndash;<item-->
+<!--                android:id="@+id/nav_perfilr"-->
+<!--                android:icon="@drawable/ic_perfil"-->
+<!--                android:title="@string/perfil" />-->
+
+<!--            <item android:id="@+id/nav_config"-->
+<!--                android:title="@string/configuracoes"-->
+<!--                android:icon="@drawable/ic_settings"/>&ndash;&gt;-->
+<!--            <item android:id="@+id/nav_help"-->
+<!--                android:title="@string/help"-->
+<!--                android:icon="@drawable/ic_help"/>-->
+<!--            <item android:id="@+id/nav_exit"-->
+<!--                android:title="@string/logout"-->
+<!--                android:icon="@drawable/ic_logout"/>-->
+
+<!--        </menu>-->
+<!--    </item>-->
+</menu>

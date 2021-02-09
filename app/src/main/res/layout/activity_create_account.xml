@@ -1,0 +1,83 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="user"
+            type="com.example.vendafacil.models.User"/>
+    </data>
+    
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CreateAccountActivity"
+        android:padding="10dp">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/write"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"/>
+
+            <EditText
+                android:id="@+id/et_email_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textEmailAddress"
+                android:text="@={user.email}"
+                android:hint="E-mail"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/create_account_edit_background"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/et_password_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:text="@={user.password}"
+                android:hint="@string/password_register"
+                android:maxLength="20"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/create_account_edit_background"
+                android:padding="10dp"/>
+
+            <EditText
+                android:id="@+id/et_confirmpassword_register"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword"
+                android:hint="@string/confirm_password_register"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/create_account_edit_background"
+                android:padding="10dp"
+                android:maxLength="20"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_register"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/write"
+            android:background="@drawable/login_button_background"
+            android:text="@string/button_register"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
